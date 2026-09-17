@@ -4,7 +4,7 @@ import * as pt from "./evolution/plantarium/plantTypes";
 import makeCard from "./evolution/cards/makeCard";
 import * as traits from "./evolution/traitTypes";
 
-export const SETTINGS_PLAYERS = [2, 8];
+export const SETTINGS_PLAYERS = [2, 16];
 
 export const SETTINGS_TIME_VALUES = [10, 600];
 
