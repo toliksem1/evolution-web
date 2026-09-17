@@ -6,7 +6,7 @@ import * as traits from "./evolution/traitTypes";
 
 export const SETTINGS_PLAYERS = [2, 16];
 
-export const SETTINGS_TIME_VALUES = [10, 600];
+export const SETTINGS_TIME_VALUES = [5, 600];
 
 export const SETTINGS_MINUTES = 60e3; // 1 minute
 export const SETTINGS_SECONDS = 1e3; // 1 second
