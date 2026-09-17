@@ -34,7 +34,7 @@ export const SettingsRules = {
 };
 
 export class SettingsRecord extends Record({
-  maxPlayers: 4
+  maxPlayers: 16
   , timeTurn: SETTINGS_DEFAULT_TIME_TURN
   , timeTraitResponse: SETTINGS_DEFAULT_TIME_TRAIT
   , timeAmbush: SETTINGS_AMBUSH_TIME
