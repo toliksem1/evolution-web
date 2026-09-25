@@ -31,7 +31,7 @@ export const SettingsRules = {
   , addon_plantarium: `boolean`
   , addon_customff: `boolean`
   , addon_lifecycle: `boolean`
-  , fixedFood: 'integer|min:0'
+  , fixedFood: 'integer|min:0' //11124
 };
 
 export class SettingsRecord extends Record({
