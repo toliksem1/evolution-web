@@ -31,6 +31,7 @@ export const SettingsRules = {
   , addon_plantarium: `boolean`
   , addon_customff: `boolean`
   , addon_lifecycle: `boolean`
+  , fixedFood: `numeric|nullable`
 };
 
 export class SettingsRecord extends Record({
