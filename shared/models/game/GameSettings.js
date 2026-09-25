@@ -49,6 +49,7 @@ export class SettingsRecord extends Record({
   , addon_customff: false
   , addon_lifecycle: false
   , seed: null
+  , fixedFood: null 
 }) {
   static fromJS(js) {
     return js == null
