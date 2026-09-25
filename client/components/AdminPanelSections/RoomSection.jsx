@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Map, List, fromJS} from 'immutable';
 
-import {roomSetSeedRequest, roomStartVotingRequest, roomEditSettingsRequest} from '../../../shared/actions/actions.js';
+import {roomSetSeedRequest, roomStartVotingRequest, roomEditSettingsRequest} from '../../../shared/actions/actions';
 
 const defaultGameSeed = `deck: 12 carnivorous, 6 sharp
 phase: feeding
